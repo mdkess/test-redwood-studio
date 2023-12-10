@@ -19,3 +19,13 @@
   open = true
 [notifications]
   versionUpdates = ["latest"]
+
+[experimental.studio]
+  enabled = true
+  inMemory = false
+[experimental.studio.graphiql]
+  endpoint = "graphql"
+[experimental.studio.graphiql.authImpersonation]
+  authProvider = "dbAuth"
+  email = "asdf"
+  userId = "1"
